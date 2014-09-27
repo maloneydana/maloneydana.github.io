@@ -1,0 +1,157 @@
+html, body{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+#mainContainer{
+  background: url('../background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  border-bottom: 3px solid #CF000F;
+}
+
+#header{
+	color: #F9BF3B;
+	display: block;
+	font-size: 65px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	text-shadow: 1px 1px white;
+}
+
+#quote{
+	width: 50%;
+	font-size: 25px;
+	color: #34495E;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#downArrow{
+	color: white;
+	font-size: 40px;
+		text-align: center;
+	display: block;
+	margin: 0 auto;
+
+}
+
+a:active{
+	text-decoration: none;
+}
+
+body a:hover{
+	text-decoration: none;
+}
+
+
+#downArrow:hover{
+	color: #F22613;
+	cursor: pointer;
+}
+
+#diff{
+	color: #674172; 
+	text-shadow: 1px 1px #F62459; 
+	border-bottom: 1px dotted white;
+}
+
+#diff:hover{
+	color:  #F62459;
+	text-shadow: 1px 1px #674172; 
+}
+
+#aboutContainer{
+	min-height: 100%;
+	color: #2C3E50;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 3px solid #AEA8D3;
+}
+
+#iAm{
+	padding-left: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: #52B3D9;
+}
+
+#aboutPara{
+	text-align: justify;
+    text-justify: inter-word;
+	font-size: 17.5px;
+	padding: 30px;
+}
+
+
+#downArrow2{
+	color: #D24D57;
+	font-size: 40px;
+		text-align: center;
+	display: block;
+	margin: 0 auto;
+
+}
+
+#downArrow2:hover{
+	color: #663399;
+	cursor: pointer;
+}
+
+#linksContainer{
+	background-color: #EEEEEE;
+	min-height: 100%;
+	color: #2C3E50;
+	padding: 20px;
+	padding-left: 70px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 3px solid #1F3A93;
+}
+
+
+#pandp{
+	padding-left: 70px;
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+	#pandp{
+		padding-left: 0px;
+	}
+
+	#inquiry{
+		padding-bottom: 30px;
+	}
+
+	.col-md-4{
+		max-width: 250px !important;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 542px) {
+	.col-md-4{
+		padding-bottom: 30px;
+	}
+
+	.col-md-4 img{
+		border:  2px solid #52B3D9;
+		padding: 5px;
+	}
+}
+
